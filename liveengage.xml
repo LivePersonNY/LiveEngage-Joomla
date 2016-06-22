@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="3.1.0" group="content" method="upgrade">
+    <name>Live Person LiveEngage Chat</name>
+    <author>Live Person</author>
+    <author_Url>www.liveperson.com</author_Url>
+    <version>1.0.0</version>
+    <description>Install Live Person Live Engage chat widget</description>
+    <files>
+        <filename plugin="liveengage">liveengage.xml</filename>
+        <filename plugin="liveengage">liveengage.php</filename>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field
+                        name="livepersonaccountnumber"
+                        type="text"
+                        label="Enter your LivePerson account #"
+                        description="Enter your LivePerson account #" />
+            </fieldset>
+        </fields>
+    </config>
+</extension>
