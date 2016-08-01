@@ -16,7 +16,7 @@
                         name="livepersonaccountnumber"
                         type="text"
                         label="Enter your LivePerson account #"
-                        description="Enter your LivePerson account #" />
+                        description="Enter your LivePerson account # (&lt;a href='https://register.liveperson.com/joomla'&gt;click here&lt;/a&gt; to get an account)" />
             </fieldset>
         </fields>
     </config>
